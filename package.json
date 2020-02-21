@@ -1,5 +1,5 @@
 {
-  "homepage": "https://martinajiresova.github.io/get-shit-done",
+  "homepage": "https://martinajiresova.github.io/get-shit-done/",
   "name": "get-shit-done",
   "version": "0.1.0",
   "private": true,
@@ -20,7 +20,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "yarn run build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
