@@ -47,6 +47,13 @@
 
   svg {
     width: 18px;
+    transition: transform .3s;
+  }
+
+  &:hover {
+    svg {
+      transform: rotate(90deg);
+    }
   }
 }
 
@@ -90,7 +97,8 @@ input[type="checkbox"]{
   top: -6px;
   width: 28px;
   height: 28px;
-  color:transparent;
+  color: transparent;
+  transition: color 0.3s;
 }
 
 :checked + .todo{

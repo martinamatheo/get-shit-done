@@ -30,7 +30,7 @@ const ListItems = props => {
       )
     }) 
   } else {
-    return(<p className='first-item-call'>Add an item that needs to be done</p>)
+    return(<p className='first-item-call'>Add a task that needs to be done</p>)
   }
 }
 

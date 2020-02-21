@@ -9,6 +9,7 @@
   color: $main-color;
   font-size: 12px;
   margin-bottom: 10px;
+  cursor: pointer;
 
   @media only screen and (min-width: 500px) {
     margin-bottom: 0;
@@ -28,9 +29,22 @@
   background: linear-gradient(45deg, #272d37, #20262e);
   box-shadow:  4px -4px 12px #0e1114, 
                -4px 4px 12px #3a4352;
-  cursor: pointer;
+  transition: transform box-shadow .3s;
 
   svg {
     width: 14px;
+    transition: transform .3s;
+  }
+
+  &:hover {
+    svg {
+      transform: rotate(90deg);
+    }
+  }
+
+  &:active {
+    transform: scale(0.9);
+    box-shadow:  3px -3px 8px #0e1114, 
+                -3px 3px 8px #3a4352;
   }
 }
