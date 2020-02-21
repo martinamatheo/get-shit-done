@@ -1,6 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router } from 'react-router-dom';
-import Route from 'react-router-dom/Route';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 
 import Homepage from './pages/homepage/homepage.component';
 import ToDoList from './pages/todo-list/todo-list.component';
