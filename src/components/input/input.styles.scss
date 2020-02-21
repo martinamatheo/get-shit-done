@@ -1,0 +1,21 @@
+@import '../../variables.scss';
+
+.todo-input-wrap {
+  width: 100%;
+}
+
+.todo-input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  color: #ECDEC9;
+  border: 1px solid $main-color;
+  border-radius: 4px;
+  background-color: transparent;
+  outline-color: $third-color;
+  font-weight: 200;
+
+  @media only screen and (min-width: 500px) {
+    font-size: 14px;
+  }
+}

@@ -1,0 +1,48 @@
+.homepage-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  background-image: linear-gradient(45deg, rgba(39, 45, 55, .7), rgba(32, 38, 46, 1)), url('../../assets/img/mountain.jpg');
+  background-position: top;
+  background-size: cover;
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: 200;
+  letter-spacing: 10px;
+
+  @media only screen and (min-width: 500px) {
+    font-size: 100px;
+    letter-spacing: 20px;
+  }
+
+  .fire {
+    margin-right: 10px;
+    height: 50px;
+
+    @media only screen and (min-width: 500px) {
+      margin-right: 20px;
+      height: 90px;
+    }
+  }
+}
+
+h2 {
+  font-size: 14px;
+  letter-spacing: 3px;
+  font-weight: 200;
+  margin: 60px 10px 70px;
+  text-align: center;
+
+  @media only screen and (min-width: 500px) {
+    font-size: 16px;
+    font-weight: 200;
+    letter-spacing: 10px;
+    margin: 30px 0 60px;
+  }
+}

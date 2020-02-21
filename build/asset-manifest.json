@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/get-shit-done/static/css/main.aa202054.chunk.css",
+    "main.js": "/get-shit-done/static/js/main.984e674d.chunk.js",
+    "main.js.map": "/get-shit-done/static/js/main.984e674d.chunk.js.map",
+    "runtime-main.js": "/get-shit-done/static/js/runtime-main.abc0c806.js",
+    "runtime-main.js.map": "/get-shit-done/static/js/runtime-main.abc0c806.js.map",
+    "static/js/2.2b83ed0c.chunk.js": "/get-shit-done/static/js/2.2b83ed0c.chunk.js",
+    "static/js/2.2b83ed0c.chunk.js.map": "/get-shit-done/static/js/2.2b83ed0c.chunk.js.map",
+    "index.html": "/get-shit-done/index.html",
+    "precache-manifest.288d54a4316f2f7082c2bb32d871a002.js": "/get-shit-done/precache-manifest.288d54a4316f2f7082c2bb32d871a002.js",
+    "service-worker.js": "/get-shit-done/service-worker.js",
+    "static/css/main.aa202054.chunk.css.map": "/get-shit-done/static/css/main.aa202054.chunk.css.map",
+    "static/js/2.2b83ed0c.chunk.js.LICENSE.txt": "/get-shit-done/static/js/2.2b83ed0c.chunk.js.LICENSE.txt",
+    "static/media/check.e597acab.svg": "/get-shit-done/static/media/check.e597acab.svg",
+    "static/media/cross.bb7daa97.svg": "/get-shit-done/static/media/cross.bb7daa97.svg",
+    "static/media/fire.c3c23cdd.svg": "/get-shit-done/static/media/fire.c3c23cdd.svg",
+    "static/media/homepage.styles.scss": "/get-shit-done/static/media/mountain.0fe10150.jpg",
+    "static/media/plus.b99e8ee2.svg": "/get-shit-done/static/media/plus.b99e8ee2.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.abc0c806.js",
+    "static/js/2.2b83ed0c.chunk.js",
+    "static/css/main.aa202054.chunk.css",
+    "static/js/main.984e674d.chunk.js"
+  ]
+}
